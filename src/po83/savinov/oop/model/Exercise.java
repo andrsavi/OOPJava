@@ -1,9 +1,9 @@
 package po83.savinov.oop.model;
 
 public class Exercise {
-    private  String name; //название упражнения
-    private  int duration; //продолжительность в минутах
-    public  static  final  int dur = 3; //время выполнения - упражнения 3 минуты
+    private  String name; //название
+    private  int duration; //продолжительность
+    public  static  final  int dur = 3; //время выполнения - 3 минуты
 
     Exercise(String name) {
         this.duration = dur;
